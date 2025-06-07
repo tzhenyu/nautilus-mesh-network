@@ -1,5 +1,3 @@
-Yes, your idea is very much possible and quite practical! Here’s how your plan would work, step by step:
-
 ### 1. BATMAN-adv Mesh Network
 - BATMAN-adv (Better Approach To Mobile Adhoc Networking - advanced) is designed for exactly this kind of scenario: creating a layer 2 mesh network over WiFi where all nodes (your Raspberry Pis) are peers.
 - Each Raspberry Pi will have a WiFi interface configured to operate in mesh mode (not AP or client) and will use BATMAN-adv to create a seamless network.
@@ -38,13 +36,4 @@ Yes, your idea is very much possible and quite practical! Here’s how your plan
                 Laptop
 ```
 
----
 
-## Summary
-
-- **Yes, you can use BATMAN-adv to mesh Pis.**
-- **Each Pi can run a web server for status.**
-- **One Pi can act as AP for your laptop to join.**
-- **A dashboard can poll all Pis and show their status.**
-
-If you need a sample configuration, script, or a network diagram, let me know!
