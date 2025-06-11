@@ -1,6 +1,3 @@
-#  ⚠️ Work is still in progress
-
-
 ## Introduction
 This GitHub repository showed how real-time communication works in **NAUTILUS** by using WiFi Mesh Network.
 
