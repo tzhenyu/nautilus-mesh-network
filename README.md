@@ -3,6 +3,8 @@ This GitHub repository showed how real-time communication works in **NAUTILUS** 
 
 **NAUTILUS** is a prototype created by "Great Wall of FSKTM" team for **UM Technothon 2025**.
 
+Note: We expected UM to provide Raspberry Pi 4 to us. Unfortunately, all Raspberry Pi 4 
+
 ## What is Mesh Network?
 
 ![Connecting mesh via WiFi](https://raw.githubusercontent.com/binnes/WiFiMeshRaspberryPi/refs/heads/master/images/PiMeshWiFi.png)
@@ -15,7 +17,7 @@ Using a mesh network on NAUTILUS enables robust, self-healing, and scalable wire
 
 The current mesh network implementation utilizes the following hardware setup:
 - 1 × Raspberry Pi 5 (designated as the bridge)
-- 2 × Raspberry Pi 4 (functioning as mesh nodes)
+- 1 × Raspberry Pi 4 (functioning as mesh nodes)
 - 1 × laptop
 
 The Raspberry Pi 5 serves as a network bridge, connecting to the laptop via Ethernet. This configuration allows real-time monitoring and management of the mesh network status from the laptop. The two Raspberry Pi 4 devices act as independent nodes within the mesh.
